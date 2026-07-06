@@ -57,4 +57,4 @@ We may update this policy; material changes will be reflected by the "Effective 
 
 ## Contact
 
-Questions? Email **mike.shaker@outlook.com**.
+Questions? Email **admin@pharaohdigital.co**.
