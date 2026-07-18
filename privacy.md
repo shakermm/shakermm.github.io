@@ -1,6 +1,6 @@
 # OneMote Privacy Policy
 
-**Effective date:** 2026-07-12
+**Effective date:** 2026-07-18
 **Live URL:** https://shakermm.github.io/privacy
 
 OneMote ("the app", "we", "us") controls smart TVs on your home WiFi network. This policy explains what the app does and does not collect.
@@ -13,6 +13,7 @@ OneMote ("the app", "we", "us") controls smart TVs on your home WiFi network. Th
 - Recognizes voice search and dictation **on your phone** using your device's built-in speech recognition. Audio is never sent to our servers — there are none.
 - Looks up movies and TV shows when you use the **What to Watch** search: the title you type is sent to third-party catalog services — [TMDB](https://www.themoviedb.org/privacy-policy) (The Movie Database), [TVmaze](https://www.tvmaze.com/site/privacy), [Wikidata / Wikipedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy), and [Apple's iTunes Search API](https://www.apple.com/legal/privacy/) — to fetch results, posters, ratings, and streaming availability. Only the title text you search is sent; no account, name, or advertising identifier is attached, and we run no servers that could store your searches.
 - Stores your saved TVs (name, IP address, and a brand-specific pairing token or key) **on your phone only**, so you don't have to pair again each time.
+- Lets you **export your saved-TV list to a file** (Settings → Export devices) and share it however you choose — AirDrop, Messages, email, cloud storage — and **import** such a file back in. This only happens when you tap Export or Import; OneMote never sends this data anywhere on its own. You choose whether the exported file includes pairing tokens/keys (a toggle, on by default) — if included, whoever receives that file can control the TVs in it without re-pairing, so treat it like a key, not a plain settings file.
 
 ## Data we do NOT collect
 
@@ -44,7 +45,7 @@ OneMote is free and supported by banner ads served by **Google AdMob**:
 
 ## Data storage & security
 
-- All device data is stored locally in your app's private storage on the phone. Pairing tokens and client keys are LAN credentials, not user passwords, and never leave the device.
+- All device data is stored locally in your app's private storage on the phone. Pairing tokens and client keys are LAN credentials, not user passwords, and stay on the device unless you deliberately export them (see Export/Import above).
 - Media you cast is served from a temporary local cache on your phone that is cleared automatically.
 - Uninstalling OneMote deletes all stored data immediately.
 
