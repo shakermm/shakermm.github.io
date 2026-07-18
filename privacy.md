@@ -56,7 +56,7 @@ OneMote is not directed at children under 13 and we do not knowingly collect the
 ## Your choices
 
 - Re-open the consent form at any time in **Settings → Ad privacy choices**.
-- Remove all saved TVs in **Settings → Remove all TVs**.
+- Export, import, or remove all saved TVs in **Settings → Devices**.
 - Reset your device's advertising identifier or limit ad tracking from your OS privacy settings at any time.
 
 ## Changes
