@@ -32,6 +32,15 @@ OneMote is free and supported by banner ads served by **Google AdMob**:
 - Ads **never** appear over the remote controls, never interrupt a command, and never read your TV input.
 - If you are offline or the ad fails to load, the ad space simply stays empty — every remote feature keeps working.
 
+## In-app purchases (tip jar)
+
+OneMote offers an optional, never-prompted tip jar in Settings (three one-time amounts). If you choose to tip:
+
+- The purchase is processed **entirely by Apple (App Store) or Google (Play Billing)** — your payment method, card details, and billing information go to Apple/Google, never to us. We have no servers to send them to.
+- The only thing OneMote reads back from the store is the purchase result (which item you bought), used solely to unlock the corresponding perk **on your phone** — either permanently removing ads, or unlocking a couple of extra accent-color options. This is not linked to your name, email, or any account, because OneMote has none.
+- A **Restore Purchases** action in Settings re-checks your purchase history with Apple/Google (e.g. after reinstalling) to restore what you already bought — this, too, only talks to Apple/Google, never to us.
+- Tipping is entirely optional and never affects any remote-control feature — every brand and every function stays free either way.
+
 ## Permissions used
 
 | Permission | Why |
