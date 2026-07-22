@@ -1,6 +1,6 @@
 # OneMote Privacy Policy
 
-**Effective date:** 2026-07-21
+**Effective date:** 2026-07-22
 **Live URL:** https://shakermm.github.io/privacy
 
 OneMote ("the app", "we", "us") controls smart TVs on your home WiFi network. This policy explains what the app does and does not collect.
@@ -11,6 +11,7 @@ OneMote ("the app", "we", "us") controls smart TVs on your home WiFi network. Th
 - Sends remote-control commands (keypresses, app launches, input switching, and text you type) **directly from your phone to your TV over your local network**. These commands never pass through our servers — there are none.
 - Casts photos and videos you pick, and mirrors your phone screen, **directly from your phone to your TV over your local network**. Your media is served straight to the TV and is never uploaded anywhere.
 - Recognizes voice search and dictation **on your phone** using your device's built-in speech recognition. Audio is never sent to our servers — there are none.
+- **Private listening (Roku only):** when you turn on the headphone button, your Roku sends its own audio **to your phone over your local network**, where the app decodes it and plays it through your headphones. This audio flows from the TV to your phone only, is never recorded, stored, or written to disk, and never leaves your local network — it is discarded as it plays. **Your phone's microphone is not used for this feature.** On Android, a foreground-service notification appears while it is playing so the audio can continue with the screen off; turning the feature off ends the stream immediately.
 - Looks up movies and TV shows when you use the **What to Watch** search: the title you type is sent to third-party catalog services — [TMDB](https://www.themoviedb.org/privacy-policy) (The Movie Database), [TVmaze](https://www.tvmaze.com/site/privacy), [Wikidata / Wikipedia](https://foundation.wikimedia.org/wiki/Policy:Privacy_policy), and [Apple's iTunes Search API](https://www.apple.com/legal/privacy/) — to fetch results, posters, ratings, and streaming availability. Only the title text you search is sent; no account, name, or advertising identifier is attached, and we run no servers that could store your searches.
 - Stores your saved TVs (name, IP address, and a brand-specific pairing token or key) **on your phone only**, so you don't have to pair again each time.
 - Remembers, per TV, a short list of text you've recently sent from the on-screen keyboard (e.g. a search term or Wi-Fi password you typed) so you can send it again with one tap, **stored on your phone only**. You can turn off "Save to recents" before sending anything you don't want remembered (on by default), and you can clear a TV's list at any time from the keyboard sheet. This list is never transmitted anywhere except when you send an entry to your TV — with one exception, see Export below.
@@ -21,7 +22,7 @@ OneMote ("the app", "we", "us") controls smart TVs on your home WiFi network. Th
 - **No accounts, no sign-up.** OneMote has no login.
 - **No personal data leaves your device or your local network.** TV control traffic stays on your WiFi.
 - **Your TV viewing habits and typed text are never read or transmitted to anyone** — text you type on the remote is sent only to the TV you are controlling. The one on-device exception is the keyboard's optional "recently sent" list described above (off by a per-send toggle, clearable any time) — that text stays on your phone and is never sent anywhere but your TV, unless you deliberately choose to include it in an exported backup file (see Export above), which only you can trigger. The only network exception is the **What to Watch** search described above: title lookups go to public catalog services, never to us, and are not linked to you.
-- **Photos, videos, mirrored screen content, and voice audio never leave your local network** and are never uploaded to any server.
+- **Photos, videos, mirrored screen content, voice audio, and private-listening TV audio never leave your local network** and are never uploaded to any server. Private-listening audio is played and discarded — never recorded or saved.
 
 ## Advertising
 
