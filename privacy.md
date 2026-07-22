@@ -52,6 +52,8 @@ OneMote offers an optional, never-prompted tip jar in Settings (three one-time a
 | WiFi state | Confirm you're on WiFi before scanning |
 | Microphone + Speech Recognition | Voice search and dictation, only when you tap the mic — recognized on your phone, never sent to a server |
 | Photo Library | Only when you pick photos or videos to cast — served directly to your TV over your WiFi |
+| Screen recording / capture | Only when you start screen mirroring, and only after you accept your device's own screen-capture confirmation. What's captured is streamed straight to your TV over your WiFi and is never recorded, stored, or uploaded |
+| Background audio / ongoing notification (Android) | Keeps private-listening audio playing while your screen is off, and keeps screen mirroring running while you use other apps. A notification is shown for as long as it's active, and it stops when you turn the feature off |
 | Tracking (iOS ATT) | Show relevant ads, only with your permission |
 
 ## Data storage & security
