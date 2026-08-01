@@ -11,6 +11,8 @@ Free universal remote for **9 TV brands**. Controls your TVs entirely over your 
 
 Roku · Samsung · LG · Google TV / Chromecast built-in · Fire TV · Apple TV · Sony BRAVIA · Vizio SmartCast · Hisense VIDAA
 
+**[Will it work with my TV?](/compatible)** — pairing, ports, and honest limits for all 9 brands.
+
 ## What it does
 
 - Full remote — D-pad, volume, channels, inputs, power, and press-and-hold repeat
