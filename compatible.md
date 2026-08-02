@@ -73,6 +73,8 @@ Not on this list? A lot of TVs sold under a store's own name (or a name you've n
 - **Protocol:** Remote v2 — TLS **:6467** (pair) / **:6466** (control)
 - **Pairing:** On-TV PIN + client certificate.
 - **Covers:** Xiaomi Mi TV / TV Stick / Mi Box (global), TCL, Philips, Nvidia Shield, onn., Chromecast with Google TV, and other Google TV OS devices discovered via mDNS.
+- **Works well for:** Daily remote, d-pad and touchpad gestures, keyboard, app launching, Google Cast casting and screen mirroring, Wake-on-LAN.
+- **Validated:** Discovery, PIN pairing and control confirmed on owner hardware (an onn. Google TV) in August 2026 — not just shipped code.
 - **Not supported:** China-market Xiaomi sets running **PatchWall / MIUI TV without Google services** — different local API, not covered.
 
 ## Fire TV
