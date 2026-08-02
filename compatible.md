@@ -25,6 +25,28 @@ This page mirrors the app’s Supported TVs table. Status labels are honest: **W
 | Vizio SmartCast | On-TV PIN | Shipped — limited hardware confirmation |
 | Hisense VIDAA | 4-digit code (newer) / open (older) | Beta |
 
+## Find your TV by the name on the box
+
+Most shoppers know the name on the bezel, not the protocol name — you own a **TCL**, not a "Google TV Remote v2 device." The good news: nearly every retail nameplate below already ships one of the nine systems in the Quick status table above, so it already works with OneMote today. The catch is **one nameplate ships different systems across models, regions and model years** — your TV's own home screen (or its box) is always the authority for which one your set actually runs. This table points you at the right row above; it is not a per-model guarantee.
+
+| Nameplate | Systems it ships (OneMote controls these) |
+|---|---|
+| **TCL** | Google TV, Roku TV, Fire TV |
+| **Hisense** | Google TV, Hisense VIDAA, Roku TV, Fire TV |
+| **onn.** (Walmart) | Google TV, Roku TV |
+| **Insignia** (Best Buy) | Fire TV |
+| **Toshiba** | Fire TV *(see below for Japan-market Regza)* |
+| **Philips** | Google TV, Roku TV *(see below for Saphi)* |
+| **Sharp** | Roku TV, Google TV *(see below for Japan/EU Aquos)* |
+| **Element** | Roku TV, Fire TV |
+| **Westinghouse** | Roku TV, Fire TV |
+| **Panasonic** | Fire TV, Google TV *(see below for My Home Screen)* |
+| **Xiaomi / Mi** | Google TV *(see below for PatchWall/MIUI TV)* |
+| **Nvidia Shield** | Google TV |
+| **JVC · RCA · Magnavox · Sanyo · Hitachi · Polaroid · InFocus · Atvio** | Roku TV (Roku licensee nameplates) |
+
+Not on this list? A lot of TVs sold under a store's own name (or a name you've never heard of) are still one of the nine systems above underneath — check the TV's own home screen for the system name (Roku, Google TV, Fire TV, and so on), or open OneMote's "+ Add TV by IP address" → "Don't see your brand?" for the same lookup, in the app.
+
 ## Roku
 
 - **Protocol:** ECP over HTTP **:8060**
@@ -86,12 +108,18 @@ This page mirrors the app’s Supported TVs table. Status labels are honest: **W
 - **Pairing:** 4-digit on-TV code on newer firmware; older sets may connect without a code.
 - **Status:** Beta. Many Hisense sets ship Google TV / Roku / Fire OS instead — those use the matching brand above, not VIDAA.
 
-## Not supported
+## Systems we do not cover
 
-- **China Xiaomi PatchWall / MIUI TV** without Google services.
+Some nameplates above also sell TVs running a system with **no third-party local control API we can speak** — this is not a defect of the TV, there is simply no published interface for an app like OneMote to use on that operating system:
+
+- **Philips Saphi** — Philips' own Linux-based OS, mostly EU budget sets.
+- **Panasonic My Home Screen** — Panasonic's own OS, legacy EU/JP sets (current US/EU flagships run Fire TV or Google TV instead — see the table above).
+- **Xiaomi PatchWall / MIUI TV** without Google services — China-market Xiaomi/Mi sets.
+- **Japan-market proprietary systems** — Sharp Aquos' and Toshiba Regza's own house OSes, sold only in Japan.
 - **IR-only** or non-smart TVs with no network control API.
-- **Guest/IoT VLAN** setups that isolate phones from TVs (network issue, not a brand gap).
-- Claiming “every model of every brand” — ports and pairing above are the grounded contract; feature depth is capability-gated per TV.
+- **Guest/IoT VLAN** setups that isolate phones from TVs (network issue, not a brand or system gap).
+
+Claiming "every model of every brand" would be dishonest — ports and pairing above are the grounded contract; feature depth is capability-gated per TV. If you own one of the systems above and it turns out to answer a local control API after all, [let us know](mailto:admin@pharaohdigital.co) — we'd rather re-open a row than leave it wrong.
 
 ## Get OneMote
 
