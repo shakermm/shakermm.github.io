@@ -36,14 +36,14 @@ Most shoppers know the name on the bezel, not the protocol name — you own a **
 | **onn.** (Walmart) | Google TV, Roku TV |
 | **Insignia** (Best Buy) | Fire TV |
 | **Toshiba** | Fire TV *(see below for Japan-market Regza)* |
-| **Philips** | Google TV, Roku TV *(see below for Saphi)* |
+| **Philips** | Google TV, Roku TV *(see below for Saphi and Titan OS)* |
 | **Sharp** | Roku TV, Google TV *(see below for Japan/EU Aquos)* |
-| **Element** | Roku TV, Fire TV |
+| **Element** | Roku TV, Fire TV *(also sells non-smart sets — see below)* |
 | **Westinghouse** | Roku TV, Fire TV |
 | **Panasonic** | Fire TV, Google TV *(see below for My Home Screen)* |
 | **Xiaomi / Mi** | Google TV *(see below for PatchWall/MIUI TV)* |
 | **Nvidia Shield** | Google TV |
-| **JVC · RCA · Magnavox · Sanyo · Hitachi · Polaroid · InFocus · Atvio** | Roku TV (Roku licensee nameplates) |
+| **JVC · RCA · Magnavox · Sanyo · Hitachi · Polaroid · InFocus · Atvio** | Roku TV (Roku licensee nameplates) *(several also sell non-smart sets, and JVC ships Titan OS in Europe — see below)* |
 
 Not on this list? A lot of TVs sold under a store's own name (or a name you've never heard of) are still one of the nine systems above underneath — check the TV's own home screen for the system name (Roku, Google TV, Fire TV, and so on), or open OneMote's "+ Add TV by IP address" → "Don't see your brand?" for the same lookup, in the app.
 
@@ -113,6 +113,7 @@ Not on this list? A lot of TVs sold under a store's own name (or a name you've n
 Some nameplates above also sell TVs running a system with **no third-party local control API we can speak** — this is not a defect of the TV, there is simply no published interface for an app like OneMote to use on that operating system:
 
 - **Philips Saphi** — Philips' own Linux-based OS, mostly EU budget sets.
+- **Titan OS** — the European platform that replaced Saphi across most 2024-and-later entry/mid Philips sets, and also ships on some JVC and AOC models. Philips' higher-end ranges still run Google TV, which does work — check your set's home screen.
 - **Panasonic My Home Screen** — Panasonic's own OS, legacy EU/JP sets (current US/EU flagships run Fire TV or Google TV instead — see the table above).
 - **Xiaomi PatchWall / MIUI TV** without Google services — China-market Xiaomi/Mi sets.
 - **Japan-market proprietary systems** — Sharp Aquos' and Toshiba Regza's own house OSes, sold only in Japan.
