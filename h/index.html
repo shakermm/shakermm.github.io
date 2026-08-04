@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Open in OneMote</title>
+  <meta name="robots" content="noindex" />
+  <style>
+    :root { color-scheme: light dark; }
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      margin: 0;
+      padding: 2rem 1.25rem;
+      max-width: 28rem;
+      margin-inline: auto;
+      line-height: 1.45;
+    }
+    h1 { font-size: 1.35rem; margin: 0 0 0.75rem; }
+    p { margin: 0 0 0.85rem; opacity: 0.9; }
+    .btn {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      background: #6366f1;
+      color: #fff;
+      font-weight: 700;
+      padding: 0.9rem 1rem;
+      border-radius: 0.75rem;
+      margin: 1rem 0;
+    }
+    .stores a { display: block; margin: 0.4rem 0; }
+    .muted { font-size: 0.9rem; opacity: 0.75; }
+    .err { color: #c62828; }
+  </style>
+</head>
+<body>
+  <h1>Open in OneMote</h1>
+  <p id="status">Preparing your TV handoff…</p>
+  <a id="open" class="btn" href="#" style="display:none">Open in OneMote</a>
+  <p id="wifi" class="muted" style="display:none">
+    For a full transfer with pairing keys, both phones need the same Wi‑Fi.
+  </p>
+  <div id="stores" class="stores" style="display:none">
+    <p class="muted">If nothing opens, install OneMote, then tap the button again:</p>
+    <a href="https://apps.apple.com/us/app/onemote-universal-tv-remote/id6787641419">Download on the App Store</a>
+    <a href="https://play.google.com/store/apps/details?id=com.mikeshaker.onemote">Get it on Google Play</a>
+  </div>
+  <script>
+    (function () {
+      // Fragment never leaves the browser — Pages never sees LAN IP/token (design D7).
+      var hash = (location.hash || '').replace(/^#/, '');
+      var statusEl = document.getElementById('status');
+      var openEl = document.getElementById('open');
+      var wifiEl = document.getElementById('wifi');
+      var storesEl = document.getElementById('stores');
+
+      var m = hash.match(/^([^:/?#]+):(\d+)\/([0-9a-fA-F]{32})(?:&i=([A-Za-z0-9_-]+))?$/);
+      if (!m) {
+        statusEl.textContent = 'This handoff link is missing or incomplete. Ask them to share again.';
+        statusEl.className = 'err';
+        storesEl.style.display = 'block';
+        return;
+      }
+
+      var q = 'ip=' + encodeURIComponent(m[1]) +
+        '&port=' + encodeURIComponent(m[2]) +
+        '&token=' + encodeURIComponent(m[3].toLowerCase());
+      if (m[4]) q += '&i=' + encodeURIComponent(m[4]);
+
+      var deep = 'onemote://handoff?' + q;
+      openEl.href = deep;
+      openEl.style.display = 'block';
+      wifiEl.style.display = 'block';
+      storesEl.style.display = 'block';
+      statusEl.textContent = 'Tap below to finish adding the shared TVs in OneMote.';
+
+      // Best-effort auto-open; button remains if the scheme is blocked.
+      try { location.href = deep; } catch (e) {}
+    })();
+  </script>
+</body>
+</html>
