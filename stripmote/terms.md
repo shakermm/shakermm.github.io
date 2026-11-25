@@ -11,9 +11,9 @@ These terms ("Terms") apply to the Stripmote iOS app ("the app"), published by *
 
 Stripmote lets you control compatible Bluetooth LED light controllers that you own, from your iPhone, within Bluetooth range. Supported controller families are listed at [shakermm.github.io/stripmote](/stripmote/).
 
-## 2. Eligibility
+## 2. Who can use the app
 
-You must be at least 13 years old (or the minimum age required in your country) to use the app. If you are under the age of majority, use it with a parent's or guardian's permission.
+The app is rated 4+ and has no minimum age. If you are under the age of majority where you live, use it with a parent's or guardian's permission. Purchases are made through Apple, so Apple's Family Sharing and Ask to Buy controls apply.
 
 ## 3. Compatibility and hardware
 

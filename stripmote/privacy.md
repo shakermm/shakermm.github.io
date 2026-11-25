@@ -111,7 +111,7 @@ Data on your phone is protected by iOS app sandboxing and, when your phone is lo
 
 ## 13. Children
 
-Stripmote is not directed at children under 13 (or under 16 where local law requires a higher age), and we do not knowingly collect their personal information. Ads are limited to PG-rated content and are not treated as child-directed. If you believe a child has provided personal information, contact us and we will help delete it.
+Stripmote is rated 4+ on the App Store but is a general-audience app and is not directed at children under 13 (or under 16 where local law requires a higher age). Stripmote itself collects no personal information from anyone. Ad requests are limited by a maximum content rating and are not treated as child-directed; if you believe a child's data was collected through ads, contact us and we will help with deletion.
 
 ## 14. Changes
 
