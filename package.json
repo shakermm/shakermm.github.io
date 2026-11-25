@@ -1,0 +1,11 @@
+{
+  "name": "pharaohdigital-sites",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:stripmote": "node tools/build-site.mjs stripmote"
+  },
+  "devDependencies": {
+    "marked": "^15.0.0"
+  }
+}

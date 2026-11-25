@@ -4,7 +4,7 @@ Bluetooth remote, scenes and widgets for the LED strip lights you already own. *
 
 ## Get Stripmote
 
-- Download on the App Store — coming soon
+- [Download on the App Store](https://apps.apple.com/app/id6838988870)
 
 ## Works with
 
