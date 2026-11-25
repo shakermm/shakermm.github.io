@@ -66,7 +66,7 @@ These Terms apply until ended by you or us. You may end them at any time by dele
 
 ## 14. Governing law and disputes
 
-These Terms are governed by the laws of the United States and the state in which Mike Shaker, LLC is organized, without regard to conflict-of-law rules, except where the law of your country of residence mandatorily applies. Please contact us first. Most issues can be solved by email.
+These Terms are governed by the laws of the **State of Ohio, USA**, and applicable US federal law, without regard to conflict-of-law rules, except where the law of your country of residence mandatorily applies. Subject to that exception, disputes will be resolved in the state or federal courts located in Ohio. Please contact us first. Most issues can be solved by email.
 
 ## 15. Export
 
