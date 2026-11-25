@@ -8,7 +8,7 @@ Bluetooth remote, scenes and widgets for the LED strip lights you already own. *
 
 ## Works with
 
-Bluetooth LED strip controllers that advertise names such as **ELK-BLEDOM, ELK-BLE, ELK-BTC, MELK, LEDBLE, XSL-, LED LIGHT STRIP, Triones, LEDBlue, Dream~, QHM-, BLE-LED, BJ_LED, L7161, L7183, BR-01B, BR-0x, DMRRBA, L7260, LEDnetWF, GBK_** and **ihoment_** (older H6xxx-series strips). Infrared-only and Wi-Fi-only strips can't be controlled this way.
+Bluetooth LED strip controllers that advertise names such as **ELK-BLEDOM, ELK-BLE, ELK-BTC, MELK, LEDBLE, XSL-, LED LIGHT STRIP, Triones, LEDBlue, Dream~, QHM-, BLE-LED, BJ_LED, L7161, L7183, BR-01B, BR-0x, DMRRBA, L7260, LEDnetWF, SP110E, GBK_** and **ihoment_** (older H6xxx-series strips). Infrared-only and Wi-Fi-only strips can't be controlled this way.
 
 Light not recognised? In Stripmote, go to **Add a light → Show all Bluetooth devices**, tap your light and share the report with us — we add new controller families from those reports.
 
