@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "build:stripmote": "node tools/build-site.mjs stripmote",
-    "build:onemote": "node tools/build-site.mjs onemote"
+    "build:onemote": "node tools/build-site.mjs onemote",
+    "build:home": "node tools/build-site.mjs home"
   },
   "devDependencies": {
     "marked": "^15.0.0"

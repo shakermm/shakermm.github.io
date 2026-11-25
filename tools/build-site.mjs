@@ -8,7 +8,10 @@ import { join } from 'node:path';
 
 const app = process.argv[2];
 // Where each app's Markdown lives. OneMote's pages predate the per-app folders and sit at the root.
-const SOURCES = { onemote: { dir: '.', files: ['index.md', 'privacy.md', 'compatible.md'] } };
+const SOURCES = {
+  onemote: { dir: '.', files: ['index.md', 'privacy.md', 'compatible.md'] },
+  home: { dir: '.', files: [] }, // pharaohdigital.co: landing page only
+};
 const src0 = SOURCES[app] ?? { dir: app };
 if (!app || !existsSync(src0.dir) || !existsSync(join('landing', `${app}.html`))) {
   console.error('usage: node tools/build-site.mjs <app-folder>');
