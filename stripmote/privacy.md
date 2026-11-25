@@ -30,7 +30,7 @@ Stripmote stores the following **only on your device**, in the app's private sto
 
 - **Bluetooth:** used to find and control your lights. Commands go straight from your phone to the light.
 - **Microphone (phone music sync):** only while you have music sync turned on, Stripmote measures the **loudness** of the sound around you to pulse your lights. Audio is processed in real time in memory and is **never recorded, stored or sent anywhere**.
-- **Camera (pick a color):** only while that screen is open. The image is used in memory to read the color you tap and is **never saved or uploaded**.
+- **Camera (pick a color):** only while that screen is open. The picture is used in memory to read the color in the middle of the frame and is then discarded: it is **never saved or uploaded**.
 - **"Show all Bluetooth devices"** (troubleshooting): lists nearby Bluetooth devices on your screen only. A report is shared **only if you tap Share** and choose where to send it. It contains just that device's Bluetooth name, signal strength and advertised identifiers.
 
 Stripmote does **not** request your location, contacts, photos, health data or any account information.
