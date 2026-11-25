@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:stripmote": "node tools/build-site.mjs stripmote"
+    "build:stripmote": "node tools/build-site.mjs stripmote",
+    "build:onemote": "node tools/build-site.mjs onemote"
   },
   "devDependencies": {
     "marked": "^15.0.0"
